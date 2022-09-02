@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 class HeaderNav extends Component {
   render() {
     return (
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
+      <Navbar collapseOnSelect expand="lg" variant="dark" style={{backgroundColor: "#221f1f"}}>
         <Container fluid>
           <Navbar.Brand href="#home">
             <img src="/assets/logo.png" alt="logo" style={{width: '100px', height: '55px'}} />
