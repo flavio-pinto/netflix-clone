@@ -20,10 +20,10 @@ class HeaderNav extends Component {
               <Nav.Link href="#my-list">My List</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link className="text-white" href="#search"><i class="bi bi-search"></i></Nav.Link>
+              <Nav.Link className="text-white" href="#search"><i className="bi bi-search"></i></Nav.Link>
               <Nav.Link className="text-white" href="#kids">KIDS</Nav.Link>
-              <Nav.Link className="text-white" href="#notifications"><i class="bi bi-bell-fill"></i></Nav.Link>
-              <Nav.Link className="text-white" href="#user"><i class="bi bi-person-fill"></i></Nav.Link>
+              <Nav.Link className="text-white" href="#notifications"><i className="bi bi-bell-fill"></i></Nav.Link>
+              <Nav.Link className="text-white" href="#user"><i className="bi bi-person-fill"></i></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

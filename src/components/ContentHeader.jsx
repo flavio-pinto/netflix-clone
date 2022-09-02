@@ -13,8 +13,8 @@ class ContentHeader extends Component {
             <HeaderDropdown />
           </div>
           <div className="text-white px-4 fs-5">
-            <i role="button" class="bi bi-border-all"></i>
-            <i role="button" class="bi bi-film ms-4"></i>
+            <i role="button" className="bi bi-border-all"></i>
+            <i role="button" className="bi bi-film ms-4"></i>
           </div>
         </div>
       </Container>
