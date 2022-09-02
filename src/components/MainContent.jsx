@@ -37,12 +37,18 @@ class MainContent extends Component {
   render() {
     return (
       <Container fluid className="px-4">
-        <h4 className="text-white text-start">Trending Now</h4>
-        <Gallery movieObjects={this.state.gallery1} />
-        <h4 className="text-white text-start">Watch it Again</h4>
-        <Gallery movieObjects={this.state.gallery2} />
-        <h4 className="text-white text-start">New Releases</h4>
-        <Gallery movieObjects={this.state.gallery3} />
+        <div className="mb-5">
+          <h4 className="text-white text-start">Trending Now</h4>
+          <Gallery movieObjects={this.state.gallery1} />
+        </div>
+        <div className="mb-5">
+          <h4 className="text-white text-start">Watch it Again</h4>
+          <Gallery movieObjects={this.state.gallery2} />
+        </div>
+        <div className="mb-5">
+          <h4 className="text-white text-start">New Releases</h4>
+          <Gallery movieObjects={this.state.gallery3} />
+        </div>
       </Container>
     );
   }
