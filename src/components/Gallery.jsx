@@ -4,11 +4,13 @@ import { Col, Container, Row } from "react-bootstrap";
 class Gallery extends Component {
   render() {
     return (
-      <Container>
+      <Container fluid>
         <Row>
           {this.props.movieObjects.map((mov) => (
             <Col md={2}>
-              <img src={mov.Poster} alt={`poster del film "${mov.Title}"`} />
+              <div className="img-wrapper">
+                <img src={mov.Poster} alt={`poster del film "${mov.Title}"`} className="img-fluid" />
+              </div>
             </Col>
           ))}
         </Row>
