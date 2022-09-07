@@ -9,7 +9,7 @@ class ContentHeader extends Component {
       <Container fluid className="px-4">
         <div className="d-flex justify-content-between">
           <div className="d-flex">
-            <h2 className="mb-4 text-white">TV Shows</h2>
+            <h2 className="mb-4 text-white">Movies</h2>
             <HeaderDropdown />
           </div>
           <div className="text-white px-4 fs-5">

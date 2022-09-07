@@ -10,10 +10,10 @@ class Footer extends Component {
             <Col className="text-start" xl={{ span: 6, offset: 3 }}>
               <Row className="mb-2">
                 <Col lg={{ span: 12 }}>
-                  <i class="bi bi-facebook footer-icon text-secondary me-3"></i>
-                  <i class="bi bi-instagram footer-icon text-secondary me-3"></i>
-                  <i class="bi bi-twitter footer-icon text-secondary me-3"></i>
-                  <i class="bi bi-youtube footer-icon text-secondary"></i>
+                  <i className="bi bi-facebook footer-icon text-secondary me-3"></i>
+                  <i className="bi bi-instagram footer-icon text-secondary me-3"></i>
+                  <i className="bi bi-twitter footer-icon text-secondary me-3"></i>
+                  <i className="bi bi-youtube footer-icon text-secondary"></i>
                 </Col>
               </Row>
               <Row>
